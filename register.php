@@ -19,6 +19,16 @@
         </nav>
 
         <h1>Inscription</h1>
+
+        <div class="div-form">
+            <form action="/register.php" method="POST">
+                <input type="text" placeholder="Votre nom" name="name">
+                <input type="email" placeholder="Votre email" name="email">
+                <input type="password" placeholder="Votre mot de passe" name="password">
+                <button type="submit">Valider</button>
+            </form>
+        </div>
+
     </div>
 
 </body>
