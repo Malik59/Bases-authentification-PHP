@@ -9,15 +9,18 @@
 </head>
 
 <body>
-    <nav>
-        <a href="/index.php">Accueil</a>
-        <a href="/register.php">Inscription</a>
-        <a href="/login.php">Connexion</a>
-        <a href="/profile.php">Profil</a>
-        <a href="/logout.php">Deconnexion</a>
-    </nav>
+    <div class="container">
+        <nav>
+            <a href="/index.php">Accueil</a>
+            <a href="/register.php">Inscription</a>
+            <a href="/login.php">Connexion</a>
+            <a href="/profile.php">Profil</a>
+            <a href="/logout.php">Deconnexion</a>
+        </nav>
 
-    <h1>Accueil</h1>
+        <h1>Accueil</h1>
+    </div>
+
 </body>
 
 </html>

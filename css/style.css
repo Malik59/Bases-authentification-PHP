@@ -2,24 +2,29 @@ body {
     margin: 0;
 }
 
+.container {
+    min-height: 100vh;
+    background-color: #ecf0f1;
+}
+
 nav {
     height: 35px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #444;
+    background-color: #5C7A97;
 }
 
 nav a {
-    color: white;
+    color: #ecf0f1;
     text-decoration: none;
     padding: 3px 7px;
     border-radius: 2px;
-
+    transition: background-color 0.5s;
 }
 
 nav a:hover {
-    background-color: #666;
+    background-color: #8CAECE;
 }
 
 h1 {
