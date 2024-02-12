@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+nav {
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #444;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 7px;
+    border-radius: 2px;
+
+}
+
+nav a:hover {
+    background-color: #666;
+}
+
+h1 {
+    text-align: center;
+}

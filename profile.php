@@ -17,7 +17,7 @@
         <a href="/logout.php">Deconnexion</a>
     </nav>
 
-    <h1>Accueil</h1>
+    <h1>Profil</h1>
 </body>
 
 </html>
