@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 
     if (!$username || !$email || !$password) {
-        $error = "ERROR";
+        $error = "ERREUR";
     } else {
         $hashedPassword = password_hash($password, PASSWORD_ARGON2I);
         $statement = $pdo->prepare('INSERT INTO user (id, username, email, password) VALUES (DEFAULT, :username, :email, :password)');
@@ -56,6 +56,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 <input type="email" placeholder="Votre email" name="email">
                 <input type="password" placeholder="Votre mot de passe" name="password">
                 <button type="submit">Valider</button>
+                <?php if ($error): ?>
+                    <h2><?= $error; ?></h2>
+                <?php endif; ?>
+
             </form>
         </div>
 
